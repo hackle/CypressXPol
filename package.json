@@ -1,11 +1,11 @@
 {
-  "name": "car-sell-end-to-end",
+  "name": "XPol",
   "version": "1.0.0",
-  "description": "End to End tests for Car Sell Process",
+  "description": "XPol",
   "scripts": {
     "start": "echo",
-    "cypress:run": "node_modules/.bin/cypress run --env baseUrl=https://dev.trademe.co.nz/",
-    "cypress:open": "node_modules/.bin/cypress open --env baseUrl=https://dev.trademe.co.nz/",
+    "cypress:run": "node_modules/.bin/cypress run",
+    "cypress:open": "node_modules/.bin/cypress open",
     "lint": "node_modules/.bin/tslint --project ./tsconfig.json",
     "postlint": "npm run tsc",
     "tsc": "node_modules/.bin/tsc --pretty --noEmit",
